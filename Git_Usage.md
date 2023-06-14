@@ -20,6 +20,7 @@ git init <br>
 git remote add origin https://github.com/sengul9/javascript.tutorial.git <br>
 git branch -M main <br>
 git add . <br>
+git commit -m "mesaj" <br>
 git push -u origin main <br>
 
 </code>

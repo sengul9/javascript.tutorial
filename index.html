@@ -9,12 +9,19 @@
    
    
     <script>
-      var a = confirm("Are you human");
-      if (a) {
-        alert("Thanx");
+      var value = prompt("Enter the value");
+     if (value >= 80 && value <= 100) {
+        document.write("1st");
+      } else if (value >= 60 && value <= 80) {
+        document.write("2nd");
+       } else if (value >= 45 && value <=60) {
+            document.write("3rd");
+         } else if (value <= 40) {
+        document.write("Pass");
       } else {
-        alert("It's ok");
+        document.write("Enter the valid value.");
       }
+   
     </script>
 </body>
 </html>

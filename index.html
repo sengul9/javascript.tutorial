@@ -7,9 +7,12 @@
 </head>
 <body>
     <script>
-   for (var a = 2; a <= 12; a++) {
-    document.write("hello world");
-   }
+for (var a = 1; a <= 100; a = a + 10) {
+    for (var b = a; b < a + 10; b++) {
+        document.write(b + "<br>") ;
+    }
+    document.write("<br>");
+}
 </script>
 </body>
 </html>
